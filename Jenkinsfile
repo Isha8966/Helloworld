@@ -18,6 +18,3 @@ pipeline {
         }
     }
 }
-withEnv(['AZURE_SUBSCRIPTION_ID=2f7b4261-4172-4aa7-b5ea-a58801629676'])
-def resourceGroup = 'rg_training'
-def webAppName = 'WebAppIsha'
